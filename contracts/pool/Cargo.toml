@@ -1,0 +1,16 @@
+[package]
+name = "pool"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+soroban-sdk = "21"
+stableswap-math = { path = "../stableswap-math" }
+
+[dev-dependencies]
+soroban-sdk = { version = "21", features = ["testutils"] }
+lp-token = { path = "../lp-token" }

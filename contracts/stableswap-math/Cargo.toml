@@ -1,0 +1,15 @@
+[package]
+name = "stableswap-math"
+version = "0.1.0"
+edition = "2021"
+description = "no_std StableSwap (Curve-style) invariant math for Soroban stable pools"
+license = "MIT"
+repository = "https://github.com/nairabridge/nairabridge"
+
+[lib]
+crate-type = ["rlib"]
+
+[dependencies]
+
+[dev-dependencies]
+proptest = "1"

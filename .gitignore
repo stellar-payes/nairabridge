@@ -1,0 +1,9 @@
+node_modules/
+.next/
+dist/
+target/
+*.tsbuildinfo
+.env
+.env.local
+test_snapshots/
+.DS_Store

@@ -1,0 +1,16 @@
+[package]
+name = "factory"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+soroban-sdk = "21"
+
+[dev-dependencies]
+soroban-sdk = { version = "21", features = ["testutils"] }
+pool = { path = "../pool" }
+lp-token = { path = "../lp-token" }
